@@ -1,0 +1,6 @@
+.pytest_cache/
+madidFines.egg-info/
+dist/
+.png
+_pycache_/
+.ipynb_checkpoints/

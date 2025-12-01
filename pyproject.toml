@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "madridFines"
+version = "0.0.1"
+authors = [
+  { name = "Sergio Hurtado" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "pandas",
+  "numpy",
+  "matplotlib",
+  "requests",
+  "beautifulsoup4"
+]
+
+[tool.setuptools.packages.find]
+exclude = ["tests*", "venv*", "dist*","notebooks*","pytest_cache*"]
