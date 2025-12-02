@@ -1,6 +1,9 @@
 .pytest_cache/
-madidFines.egg-info/
+madridFines.egg-info/
 dist/
-.png
-_pycache_/
-.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+__pycache__/
+
+*.png
+*.html
+*.html

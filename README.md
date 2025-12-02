@@ -8,7 +8,7 @@ El objetivo es facilitar el análisis de las infracciones, su clasificación y l
 
 ## Instalación del paquete
 
-1. Descargar el archivo `.whl` incluido en la entrega (carpeta dist).
+1. generar el archivo `.whl` con el comando `python -m build`.
 
 2. Instalar el paquete con el siguiente comando (desde el directorio donde se encuentra el archivo):
 
